@@ -1,0 +1,84 @@
+/* OctoFit Tracker App Styles */
+
+.App {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.octofit-header {
+  background: linear-gradient(135deg, #512a97 0%, #7b4fc9 100%);
+  color: white;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.octofit-header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card-header {
+  background-color: #512a97;
+  color: white;
+  font-weight: bold;
+}
+
+.table thead th {
+  background-color: #6f42c1;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #512a97;
+  border-color: #512a97;
+}
+
+.btn-primary:hover {
+  background-color: #3d1f73;
+  border-color: #3d1f73;
+}
+
+.nav-link.active {
+  background-color: #512a97 !important;
+  color: white !important;
+  border-radius: 4px;
+}
+
+.nav-link {
+  color: #512a97 !important;
+}
+
+.nav-link:hover {
+  color: #3d1f73 !important;
+}
+
+.badge-score {
+  background-color: #28a745;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #512a97;
+  color: white;
+  padding: 20px 0;
+  margin-top: 40px;
+}
